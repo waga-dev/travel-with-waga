@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel with Waga</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://kit.fontawesome.com/ffdedce6d4.js" crossorigin="anonymous"></script>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> 
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">DESTINATIONS</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>BLOGS AND REVIEWS</h1>
+
+  </section>
+
+  <!--------blog page content------->
+
+  <section class="blog-content">
+    <div class="row">
+      <div class="blog-left">
+        <img src="images/13.jpg">
+        <h2>Our Travels For 2023</h2>
+        <p>As we bid farewell to the past year, we eagerly anticipate the exciting chapter that awaits us in 2023.<br>
+           Join us on an exhilarating journey as we unveil our upcoming travels across Kenya,<br>
+           where we will immerse ourselves in the rich tapestry of this beautiful country.<br>
+           From breathtaking landscapes to vibrant cultures, this blog offers a glimpse into the extraordinary adventures that lie ahead.
+
+           Embracing Kenyan Culture:
+           Prepare to immerse yourself in the vibrant traditions and diverse cultures that define Kenya. <br>
+           We'll explore the bustling streets of Nairobi, where modern urban life merges seamlessly with a deep-rooted African heritage.<br>
+           From visiting captivating Maasai villages to indulging in authentic Kenyan cuisine,<br>
+           we'll celebrate the unique spirit of the Kenyan people and the fascinating stories that shape their lives.
+          
+           Discovering Kenya's Natural Wonders:
+           Kenya is a land blessed with awe-inspiring natural beauty.<br>
+           Our journey will take us to the magnificent Masai Mara, where the annual wildebeest migration showcases the raw power of the animal kingdom. <br>
+           We'll embark on thrilling game drives, witnessing lions, elephants, and other majestic creatures in their natural habitats.<br>
+           We'll also explore the stunning landscapes of the Great Rift Valley and hike through lush forests, encountering incredible biodiversity along the way.
+          
+           Venturing off the Beaten Path:
+           In our quest for off-the-beaten-path experiences, we'll uncover hidden gems across Kenya.<br>
+           From the pristine beaches of the Kenyan coast, where azure waters meet white sands,<br>
+           to the breathtaking Mount Kenya National Park, where we'll challenge ourselves with exhilarating hikes,<br>
+           our adventures will take us to unexplored corners of this remarkable country.<br>
+           We'll engage with local communities, learn their stories, and immerse ourselves in the richness of Kenya's cultural heritage.
+          
+           Savoring Kenyan Cuisine:
+           No journey in Kenya is complete without indulging in its rich culinary heritage.<br>
+           We'll sample the vibrant flavors of Nyama Choma (grilled meat) at local roadside joints,<br>
+           savor delicious Ugali and Sukuma Wiki (staple dishes), and delve into the world of aromatic Kenyan coffee. <br>
+           We'll also explore the bustling food markets, like Nairobi's Maasai Market, where we'll find unique handmade crafts and local delicacies.
+          
+           Conclusion:
+           As we embark on our Kenyan escapades in 2023, we invite you to join us on this authentic adventure. <br>
+           Through our blog, we'll share captivating stories, breathtaking photos, and valuable insights that will transport you to the heart of Kenya. <br>
+           Our aim is to inspire you to explore the beauty of this remarkable country, experience its warm hospitality, and create your own unforgettable memories. <br>
+           Let's make 2023 a year filled with Kenyan wanderlust, discovery, and the joy of authentic travel. Karibu Kenya!
+        </p>
+
+        <div class="comment-box">
+            <h3>leave a coment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="enter name">
+                <input type="text" placeholder="enter email">
+                <textarea rows="5" placeholder="your comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+      </div>
+      <div class="blog-right"></div>
+    </div>
+  </section>
+
+  <!-----------footer---------->
+
+  <section class="footer">
+    <h4>About us</h4>
+    <p>At Travel With Waga, we are passionate about exploring the world and sharing our experiences with fellow wanderers. <br>
+      We are dedicated to inspiring and guiding travel enthusiasts through captivating stories, stunning visuals, and expert insights. <br>
+      Our mission is to ignite your sense of adventure, connect you with extraordinary destinations, and provide valuable resources to make your travel dreams a reality.<br>
+      Join us on this incredible journey as we celebrate the beauty of our planet and the transformative power of travel.
+    </p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>made with <i class="fa fa-heart-o"></i> by waga</p>
+  </section>
+
+  <!--------JavaScript for Toggle Menu-------->
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showmenu(){
+      navLinks.style.right="0";
+    }
+    function hidemenu(){
+      navLinks.style.right="-200px";
+    }
+  </script>
+  
+</body>
+</html>

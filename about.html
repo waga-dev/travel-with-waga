@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel with Waga</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://kit.fontawesome.com/ffdedce6d4.js" crossorigin="anonymous"></script>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> 
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">DESTINATIONS</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>ABOUT US</h1>
+
+  </section>
+
+  <!--------about us content------->
+
+  <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+        <h1>Travel Diaries Unlocked: Embark on a Journey with Travel with Waga</h1>
+        <p>
+          Welcome to Travel With Waga, the captivating destination where the vivid narratives of globetrotters come to life. Dive into the immersive world of travel and exploration as we unlock the hidden gems, untold tales, and remarkable experiences found within our web app.
+          
+          We invite you to join us on an extraordinary adventure. Discover the personal stories, awe-inspiring moments, and valuable insights shared by fellow travelers who have traversed the globe with Travel with Waga. Gain access to an expansive collection of authentic travel diaries, meticulously crafted to transport you to breathtaking destinations and ignite your wanderlust.
+          
+          Immerse yourself in the compelling accounts of fellow explorers as they unveil their encounters with diverse cultures, mesmerizing landscapes, and life-changing encounters. Through vivid descriptions, stunning visuals, and heartfelt narratives, Travel With Waga presents a gateway to the world, inspiring you to embrace the transformative power of travel.
+          
+          As you delve deeper into our web app, you'll unlock a wealth of travel resources, curated itineraries, insider tips, and a vibrant community of fellow adventurers. Whether you're seeking inspiration for your next journey or looking to share your own travel diary, this is your key to unlocking unforgettable experiences.
+          
+          Join us on this exhilarating voyage of discovery, where every page turned in the travel diaries brings you closer to the boundless beauty and captivating tales that lie in wait. Get ready to unlock the world of Travel with Waga and embark on an unforgettable exploration of the extraordinary.
+          
+          Remember, the key to unlocking memorable adventures is right at your fingertips. Welcome to Travel with Waga—where remarkable stories are waiting to be discovered.
+        </p>
+      </div>
+      <div class="about-col">
+        <img src="images/12.jpg">
+      </div>
+    </div>
+  </section>
+
+  <!-----------footer---------->
+
+  <section class="footer">
+    <h4>About us</h4>
+    <p>At Travel With Waga, we are passionate about exploring the world and sharing our experiences with fellow wanderers. <br>
+      We are dedicated to inspiring and guiding travel enthusiasts through captivating stories, stunning visuals, and expert insights. <br>
+      Our mission is to ignite your sense of adventure, connect you with extraordinary destinations, and provide valuable resources to make your travel dreams a reality.<br>
+      Join us on this incredible journey as we celebrate the beauty of our planet and the transformative power of travel.
+    </p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>made with <i class="fa fa-heart-o"></i> by waga</p>
+  </section>
+
+  <!--------JavaScript for Toggle Menu-------->
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showmenu(){
+      navLinks.style.right="0";
+    }
+    function hidemenu(){
+      navLinks.style.right="-200px";
+    }
+  </script>
+  
+</body>
+</html>
